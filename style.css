@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	/*border: 1px solid red;*/
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+footer .row{
+	margin-left: -25px;
+	margin-right: -25px;
+}
+
+nav{
+	padding:15px 0;
+}
+
+.nav>li>a {
+    padding: 10px 9px;
+}
+
+.navbar-toggle{
+	border: 1px solid #000;
+}
+
+.navbar-brand{
+	font-size:28px;
+}
+
+.icon-bar{
+	color:#000;
+	background-color: #000;
+}
+
+.subImgs img{
+	display: inline;
+}
+
+.spacer{
+	content: " ";
+	height: 10px;
+}
+a,
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+
+.marketing{
+	margin-top:15px;
+}
+
+.marketCol{
+	text-align: center;
+	margin: 15px auto;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: rgba(0,0,0,0.35);
+	z-index: 5;
+}
+
+.marketCol a, 
+.marketCol a:hover,
+.marketCol a:focus,
+footer a, 
+footer a:hover,
+footer a:focus{
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+}
+
+.marketCol img{
+	display: inline;
+	text-align: center;
+}
+
+.marketText{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left:0;
+	top: calc(50% - 20px);
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	z-index: 6;
+}
+
+footer{
+	margin-top: 50px;
+	color: #FFF;
+	text-align: center;
+	position: relative;
+}
+
+footer h4{
+	margin: 5px;
+}
+
+footer .row:first-child{
+	box-sizing: border-box;
+	background-color: #322;
+}
+
+footer .row:last-child div:first-child{
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer .row:last-child{
+	padding: 10px 0;
+	color:#4a5c61;
+	background-color: #000;
+}
+
+footer ul{
+	padding: 0;
+}
+
+footer ul a{
+	color:inherit;
+	font-size: 12px;
+}
+
+footer ul li{
+	list-style-type: none;
+	margin: 0 10px;
+	display: inline;
+}
+
+@font-face{
+	font-family:'FontAwesome';
+	src:url('fonts/fontawesome-webfont.eot?v=4.3.0');
+	src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+	url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+	url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+	url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+	url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
+}
+
+.fa{
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	transform:translate(0, 0);
+	font-size: 2.3rem;
+	margin: 5px;
+}
+
+.fa-twitter-square:before{content:"\f081"}
+.fa-facebook-square:before{content:"\f082"}
+.fa-youtube-square:before{content:"\f166"}
+.fa-youtube:before{content:"\f167"}
+
+@media (min-width: 768px){
+
+	.marketCol:first-child{
+		text-align: left;
+	}
+	.marketCol:last-child{
+		text-align: right;
+	}
+
+	footer .row:first-child{	
+		padding: 30px 0;
+	}
+}
+
+@media (max-width: 767px){
+	footer div:first-child div{
+		margin: 28px;
+	}
+}
+
+@media (max-width: 992px){
+
+	.marketing div:last-child{
+		margin: 15px auto;
+	    float: none;
+	    clear:both;
+	}
+
+	footer .row:last-child ul{
+		display: inline-block;
+		margin: 0 calc(50% - 103PX);
+		float:none;
+	}
+
+}
