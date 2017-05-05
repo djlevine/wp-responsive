@@ -2,11 +2,11 @@
         <div class="row">
             <div class="col-sm-4">
                 <h4>About Me</h4>
-                Bringing your favorite characters to life.
+                Bringing your website to life.
             </div>
             <div class="col-sm-4">
                 <h4>Contact Me</h4>
-                <a href="mailto:micheleknotzva@gmail.com">micheleknotzva@gmail.com</a>
+                <a href="mailto:email@domain.com">email@domain.com</a>
             </div>
             <div class="col-sm-4">
                 <h4>Follow Me</h4>
